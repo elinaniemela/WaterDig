@@ -1,0 +1,24 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting mapclassify
+  Downloading mapclassify-2.10.0-py3-none-any.whl.metadata (3.1 kB)
+Requirement already satisfied: networkx>=3.2 in /home/jovyan/.local/lib/python3.11/site-packages (from mapclassify) (3.6.1)
+Requirement already satisfied: numpy>=1.26 in /opt/conda/lib/python3.11/site-packages (from mapclassify) (2.1.0)
+Requirement already satisfied: pandas>=2.1 in /home/jovyan/.local/lib/python3.11/site-packages (from mapclassify) (3.0.0)
+Collecting scikit-learn>=1.4 (from mapclassify)
+  Downloading scikit_learn-1.8.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: scipy>=1.12 in /home/jovyan/.local/lib/python3.11/site-packages (from mapclassify) (1.17.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.11/site-packages (from pandas>=2.1->mapclassify) (2.8.2)
+Collecting joblib>=1.3.0 (from scikit-learn>=1.4->mapclassify)
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting threadpoolctl>=3.2.0 (from scikit-learn>=1.4->mapclassify)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas>=2.1->mapclassify) (1.16.0)
+Downloading mapclassify-2.10.0-py3-none-any.whl (882 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/882.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m614.4/882.2 kB[0m [31m18.3 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m882.2/882.2 kB[0m [31m13.6 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading scikit_learn-1.8.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.1 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/9.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m7.0/9.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m9.1/9.1 MB[0m [31m204.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m9.1/9.1 MB[0m [31m204.8 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.1/9.1 MB[0m [31m84.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading joblib-1.5.3-py3-none-any.whl (309 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/309.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m309.1/309.1 kB[0m [31m22.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, joblib, scikit-learn, mapclassify
+Successfully installed joblib-1.5.3 mapclassify-2.10.0 scikit-learn-1.8.0 threadpoolctl-3.6.0
